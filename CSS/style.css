@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Joan&family=Roboto:wght@700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -21,6 +22,7 @@ img{
     margin-right:auto;
 }
 .wrapper {
+    background-color:#FAEEDE;
  
 }
 a {
@@ -85,8 +87,8 @@ section{
     background-size: cover;
     padding:50px;
     margin: 140px;
-    margin-top:55px;
-    margin-bottom:55px;
+    margin-top:0;
+    margin-bottom:25px;
     height: 400px;
     width: 75%;
     display:block;
@@ -101,6 +103,10 @@ section{
     
     /* ^^^ Section ^^^ */
     /* vvv Columns vvv */
+.row{
+    margin:0;
+    background-color:#FAEEDE;
+}
 .column {
     float: left;
     width: 33%;
@@ -112,11 +118,38 @@ section{
 }
 .column1{
     background-color: #4D9E9A;
+    text-align: center;
+    background-image: url(/FinalProjectRepository/images/water-drops-1314995.jpg);
+    background-position:center;
+    background-size: cover;
 }
 .column2{
     background-color: #17BEBB;
+    text-align: center;
+    background-image: url(/FinalProjectRepository/images/healing.jpg);
+    background-position: center;
+    background-size: cover;
 }
-.column3{
+.column3 {
     background-color: #237373;
+    text-align: center;
+    background-image: url(/FinalProjectRepository/images/growing2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.column1 p { 
+    text-align: center;
+    font-size: large;
+    font-family: 'Joan', serif;
+}
+.column2 p { 
+    text-align: center;
+    font-size: large;
+    font-family: 'Joan', serif;
+}
+.column3 p { 
+    text-align: center;
+    font-size: large;
+    font-family: 'Joan', serif;
 }
   /* ^^^ Columns ^^^ */

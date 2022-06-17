@@ -14,8 +14,8 @@ header{
     border-style: solid;
 }
 img{
-    height:350px;
-    width: 350px;
+    height:300px;
+    width: 300px;
     /* centering image */
     display:block;
     margin-left:auto;
@@ -66,13 +66,12 @@ a:link {
 }
     /* visited link */
 a:visited {
-    color: black;
+    color:#237373;
 }
   
     /* mouse over link */
 a:hover {
     color: #17BEBB;
-    background-color: chartreuse;
 }
 
     /* selected link */
@@ -96,9 +95,12 @@ section{
     /* Section Text */
     text-align:center;
     font-size:35px;
-    font-weight:400px;
+    font-weight: bold;
     font-family: 'Dancing Script', cursive;
+}
+section p{
     font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
     
     /* ^^^ Section ^^^ */
@@ -141,15 +143,26 @@ section{
     text-align: center;
     font-size: large;
     font-family: 'Joan', serif;
+    font-weight: bold;
 }
 .column2 p { 
     text-align: center;
     font-size: large;
     font-family: 'Joan', serif;
+    font-weight: bold;
 }
 .column3 p { 
     text-align: center;
     font-size: large;
     font-family: 'Joan', serif;
+    font-weight: bold;
 }
   /* ^^^ Columns ^^^ */
+.footer{
+    color: black;
+    font-size: 25px;
+    padding-top:10px;
+    font-weight: bold;
+    height: 100px;
+    background-color:#FAEEDE;
+}

@@ -1,14 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+}
 h1 {
-    font-family: 'Roboto', sans-serif;
-    background-color: blueviolet;
+    padding-top:25px;
+    margin:0;
+}
+header{
+    background-color:#FAEEDE;
+    border: #FAEBD4;
+    border-style: solid;
+}
+img{
+    height:350px;
+    width: 350px;
+    /* centering image */
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 .wrapper {
-    font-family: 'Roboto', serif;
+ 
 }
-nav{
+a {
+    position:sticky;
+    float:left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:25px;
+    width:50%;
+
+}
+    /* vvv NAV BAR vvv */
+ul {
+    /* remove bullet point*/
+    list-style-type: none;
+    margin: 1px;
+    padding: 0;
+    position: sticky;
+    top: 5px;
+    display: inline-flex;    
+}
+li {
+    line-height: 1.5;
+    border-width: 1px;
+    border-color:black;
+    /* button size */
+    padding: 14px;
+}
+nav {
+    font-weight:bold;
+    height:50px;
     position: relative;
     padding: 0;
     text-align: center;
-    margin: 25px 0;
+    border-top:0; 
+    font-family: 'Roboto', serif;
 }
+a:link {
+    color: black;
+}
+    /* visited link */
+a:visited {
+    color: black;
+}
+  
+    /* mouse over link */
+a:hover {
+    color: #17BEBB;
+    background-color: chartreuse;
+}
+
+    /* selected link */
+a:active {
+    color: blue;
+}
+    /* ^^^ NAV BAR ^^^ */
+    /* vvv Section vvv */
+section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+    margin: 140px;
+    margin-top:55px;
+    margin-bottom:55px;
+    height: 400px;
+    width: 75%;
+    display:block;
+    background-image: url(/FinalProjectRepository/images/dropOwater.jpg);
+    /* Section Text */
+    text-align:center;
+    font-size:35px;
+    font-weight:400px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+    
+    /* ^^^ Section ^^^ */
+    /* vvv Columns vvv */
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 300px;
+}
+.row:after {
+    clear:both;
+}
+.column1{
+    background-color: #4D9E9A;
+}
+.column2{
+    background-color: #17BEBB;
+}
+.column3{
+    background-color: #237373;
+}
+  /* ^^^ Columns ^^^ */

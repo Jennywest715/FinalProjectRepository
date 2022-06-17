@@ -26,7 +26,7 @@ img{
  
 }
 a {
-    position:sticky;
+    position:static;
     float:left;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,6 +81,7 @@ a:active {
     /* ^^^ NAV BAR ^^^ */
     /* vvv Section vvv */
 section{
+    position:relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

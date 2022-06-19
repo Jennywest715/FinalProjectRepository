@@ -4,85 +4,16 @@
 * {
     box-sizing: border-box;
 }
-h1 {
-    padding-top:25px;
-    margin:0;
-}
 header{
     background-color:#FAEEDE;
     border: #FAEBD4;
     border-style: solid;
-}
-img{
-    height:300px;
-    width: 300px;
-    /* centering image */
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
 }
 .wrapper {
     background-color:#FAEEDE;
     padding: 5px;
  
 }
-a {
-    position:static;
-    float:left;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:25px;
-    width:50%;
-
-}
-    /* vvv NAV BAR vvv */
-ul {
-    /* remove bullet point*/
-    list-style-type: none;
-    margin: 1px;
-    padding: 0;
-    position: sticky;
-    top: 5px;
-    display: inline-flex;    
-}
-li {
-    line-height: 1.5;
-    border-width: 1px;
-    border-color:black;
-    /* button size */
-    padding: 14px;
-}
-nav {
-    font-weight:bold;
-    height:50px;
-    position: fixed;
-    padding: 0;
-    text-align: center;
-    border-top:0; 
-    font-family: 'Roboto', serif;
-    width:100%;
-    top:0;
-    background-color: #17BEBB;
-}
-a:link {
-    color: black;
-}
-    /* visited link */
-a:visited {
-    color:#237373;
-}
-  
-    /* mouse over link */
-a:hover {
-    color: #17BEBB;
-}
-
-    /* selected link */
-a:active {
-    color: blue;
-}
-    /* ^^^ NAV BAR ^^^ */
 .article {
     text-align:center;
     font-size:35px;

@@ -6,10 +6,6 @@
     
     
 }
-h1 {
-    padding-top:25px;
-    margin:0;
-}
 header{
     background-color:#FAEEDE;
     border: #FAEBD4;
@@ -19,14 +15,6 @@ body {
     background-color:#FAEEDE;
     margin:5px;
 }
-img {
-    height:300px;
-    width: 300px;
-    /* centering image */
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
 .wrapper {
     background-color:#FAEEDE;
  
@@ -34,19 +22,8 @@ img {
 .row:after {
     clear:both;
 }
-a {
-    position:static;
-    float:left;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:25px;
-    width:50%;
-
-}
     /* vvv Section vvv */
 section{
-    position:relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

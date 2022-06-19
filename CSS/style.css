@@ -2,27 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Joan&family=Roboto:wght@700&display=swap');
 * {
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box;  
 }
 header{
     background-color:#FAEEDE;
     border: #FAEBD4;
     border-style: solid;
+    position: sticky;
+    position: -webkit-sticky;
+    height: auto;
+    top:0;
 }
 body {
     background-color:#FAEEDE;
     margin:5px;
 }
-.wrapper {
-    background-color:#FAEEDE;
- 
-}
 .row:after {
     clear:both;
 }
     /* vvv Section vvv */
+.wrapper {
+    background-color:#FAEEDE;
+    position: relative;
+}
 section{
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +34,6 @@ section{
     margin-top:0;
     margin-bottom:25px;
     height: 400px;
-    display:block;
     background-image: url(/FinalProjectRepository/images/dropOwater.jpg);
     /* Section Text */
     text-align:center;
@@ -44,7 +45,6 @@ section p{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
-    
     /* ^^^ Section ^^^ */
     /* vvv Columns vvv */
 .row {

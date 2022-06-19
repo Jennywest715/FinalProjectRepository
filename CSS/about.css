@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Joan&family=Roboto:wght@700&display=swap');
 * {
     box-sizing: border-box;
+    margin:0;
 }
 h1 {
     padding-top:25px;
@@ -86,7 +87,6 @@ a:active {
     font-family: 'Dancing Script', cursive;
 }
 article p {
-    text-align: justify;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }

@@ -9,23 +9,37 @@ img {
 h1 {
     padding-top:25px;
     margin: 10px;
-    margin-left: 5em;
+    margin-left:25px;
+    /* margin-left: 5em; */
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    /* height: 150px;
+    width: 150px; */
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    font-size:50px;
+}
+p {
+    text-align:center;
+    font-family: 'Joan', serif;
 }
 header {
-    justify-content:space-between;
+    background-color:#FAEEDE;
+    border: #FAEBD4;
+    border-style: solid;
     position: sticky;
+    position: -webkit-sticky;
+    height: auto;
     top:0;
 }
 .logo {
-    display:inline-block;
+    /* display:inline-block; */
     margin-left: 5em;
     border-radius: 50%;
     height: 150px;
     width: 150px;
     margin-bottom: 10px;
+
 }
 .logo a {
     text-decoration: none;
@@ -37,6 +51,9 @@ header {
     margin-left:auto;
     margin-top: 25px;
 }
+.logonav {
+    display:inline-flex;
+}
 a {
     position:static;
     background-position: right;
@@ -44,7 +61,6 @@ a {
     background-size: cover;
     height:25px;
     width:50%;
-
 }
 /* vvv NAV BAR vvv */
 ul {

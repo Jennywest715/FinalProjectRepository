@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Joan&family=Roboto:wght@700&display=swap');
 * {
     box-sizing: border-box;
-    margin:0;
 }
 h1 {
     padding-top:25px;
@@ -24,6 +23,7 @@ img{
 }
 .wrapper {
     background-color:#FAEEDE;
+    padding: 5px;
  
 }
 a {
@@ -56,11 +56,14 @@ li {
 nav {
     font-weight:bold;
     height:50px;
-    position: relative;
+    position: fixed;
     padding: 0;
     text-align: center;
     border-top:0; 
     font-family: 'Roboto', serif;
+    width:100%;
+    top:0;
+    background-color: #17BEBB;
 }
 a:link {
     color: black;
@@ -84,9 +87,20 @@ a:active {
     text-align:center;
     font-size:35px;
     font-weight: bold;
-    font-family: 'Dancing Script', cursive;
 }
 article p {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
+}
+h2 {
+    text-align: center;
+}
+p {
+    margin-top: 30px;
+    line-height: 1.6;
+    margin-left:10px;
+    margin-right:5px;
+}
+body {
+    margin: 0px;
 }

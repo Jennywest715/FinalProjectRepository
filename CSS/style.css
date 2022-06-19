@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Joan&family=Roboto:wght@700&display=swap');
 * {
     box-sizing: border-box;
-    margin:0;
+    
+    
 }
 h1 {
     padding-top:25px;
@@ -14,7 +15,11 @@ header{
     border: #FAEBD4;
     border-style: solid;
 }
-img{
+body {
+    background-color:#FAEEDE;
+    margin:5px;
+}
+img {
     height:300px;
     width: 300px;
     /* centering image */
@@ -26,6 +31,9 @@ img{
     background-color:#FAEEDE;
  
 }
+.row:after {
+    clear:both;
+}
 a {
     position:static;
     float:left;
@@ -36,50 +44,6 @@ a {
     width:50%;
 
 }
-    /* vvv NAV BAR vvv */
-ul {
-    /* remove bullet point*/
-    list-style-type: none;
-    margin: 1px;
-    padding: 0;
-    position: sticky;
-    top: 5px;
-    display: inline-flex;    
-}
-li {
-    line-height: 1.5;
-    border-width: 1px;
-    border-color:black;
-    /* button size */
-    padding: 14px;
-}
-nav {
-    font-weight:bold;
-    height:50px;
-    position: relative;
-    padding: 0;
-    text-align: center;
-    border-top:0; 
-    font-family: 'Roboto', serif;
-}
-a:link {
-    color: black;
-}
-    /* visited link */
-a:visited {
-    color:#237373;
-}
-  
-    /* mouse over link */
-a:hover {
-    color: #17BEBB;
-}
-
-    /* selected link */
-a:active {
-    color: blue;
-}
-    /* ^^^ NAV BAR ^^^ */
     /* vvv Section vvv */
 section{
     position:relative;
@@ -91,7 +55,6 @@ section{
     margin-top:0;
     margin-bottom:25px;
     height: 400px;
-    width: 75%;
     display:block;
     background-image: url(/FinalProjectRepository/images/dropOwater.jpg);
     /* Section Text */
@@ -107,35 +70,28 @@ section p{
     
     /* ^^^ Section ^^^ */
     /* vvv Columns vvv */
-.row{
-    margin:0;
+.row {
     background-color:#FAEEDE;
 }
 .column {
     float: left;
-    width: 33%;
+    width: 33.33%;
     padding: 10px;
-    height: 300px;
-}
-.row:after {
-    clear:both;
+    height: 400px;
 }
 .column1{
-    background-color: #4D9E9A;
     text-align: center;
     background-image: url(/FinalProjectRepository/images/water-drops-1314995.jpg);
     background-position:center;
     background-size: cover;
 }
 .column2{
-    background-color: #17BEBB;
     text-align: center;
     background-image: url(/FinalProjectRepository/images/healing.jpg);
     background-position: center;
     background-size: cover;
 }
 .column3 {
-    background-color: #237373;
     text-align: center;
     background-image: url(/FinalProjectRepository/images/growing2.jpg);
     background-position: center;
@@ -160,11 +116,3 @@ section p{
     font-weight: bold;
 }
   /* ^^^ Columns ^^^ */
-.footer{
-    color: black;
-    font-size: 25px;
-    padding-top:10px;
-    font-weight: bold;
-    height: 100px;
-    background-color:#FAEEDE;
-}

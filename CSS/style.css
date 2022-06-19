@@ -23,7 +23,7 @@ body {
     /* vvv Section vvv */
 .wrapper {
     background-color:#FAEEDE;
-    position: relative;
+    /* position: relative; */
 }
 section{
     background-position: center;

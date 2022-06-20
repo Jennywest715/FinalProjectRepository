@@ -6,22 +6,19 @@ img {
     margin-left:auto;
     margin-right:auto;
 }
+body {
+    background-color:#FAEEDE;
+    margin:5px;
+}
 h1 {
-    padding-top:25px;
+    padding-top:5px;
     margin: 10px;
     margin-left:25px;
-    /* margin-left: 5em; */
     border-radius: 50%;
-    /* height: 150px;
-    width: 150px; */
-    font-weight: bold;
+    font-weight:bold;
     text-align:center;
-    font-family: 'Dancing Script', cursive;
-    font-size:50px;
-}
-p {
-    text-align:center;
-    font-family: 'Joan', serif;
+    font-size:30px;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     background-color:#FAEEDE;
@@ -44,12 +41,13 @@ header {
 .logo a {
     text-decoration: none;
     background-image: url(/FinalProjectRepository/images/logo.png);
-    height:150px;
-    width: 150px;
+    height: 95px;
+    width: 95px;
     /* centering image */
     display:block;
     margin-left:auto;
-    margin-top: 25px;
+    margin-top:5px;
+    margin-bottom: 5px;
 }
 .logonav {
     display:inline-flex;
@@ -82,13 +80,13 @@ li {
 nav {
     text-decoration: none;
     font-weight:bold;
-    height:200px;
+    height:105px;
     padding: 0;
     text-align: center;
     border-top:0; 
     font-family: 'Roboto', serif;
     width:100%;
-    background-color: #17BEBB;
+    background-color:#ef9c88;
     align-items: center;
 }
 a:link {
@@ -96,12 +94,12 @@ a:link {
 }
     /* visited link */
 a:visited {
-    color:#237373;
+    color:#e14621;
 }
     
     /* mouse over link */
 a:hover {
-    color: gray;
+    color:#e17b21;
 }
 
     /* selected link */
@@ -115,17 +113,18 @@ a:active {
     padding-top:10px;
     font-weight: bold;
     height: 100px;
-    background-color:purple;
+    background-color:#c73c1b;
     display:flex;
     bottom:0;
     width:100%;
-    }
-    .footer a {
-        text-decoration: none;
-        color: orange;
-        padding: 10px;
-    }
-    .footer i {
-        padding: 5px;
-        margin: 5px;
-    }
+}
+.footer a {
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+}
+.footer i {
+    padding: 5px;
+    margin: 5px;
+    color:black;
+}

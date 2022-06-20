@@ -4,11 +4,6 @@
 * {
     box-sizing: border-box;
 }
-header{
-    background-color:#FAEEDE;
-    border: #FAEBD4;
-    border-style: solid;
-}
 .wrapper {
     background-color:#FAEEDE;
     padding: 5px;

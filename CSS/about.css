@@ -35,19 +35,27 @@ body {
     /* vvv GRID vvv */
 .grid {
     display: grid;
-    grid-template-columns: min-content 1fr;
+    grid-template-columns: repeat(2, 1fr);
     text-align: center;
     margin:10px; 
     width:auto;   
-}
-.box {
-    
 }
 .box1 {
     margin: 20px;
     border-style: solid;
     border-width: 2px;
     background-color: #eb8467;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+.box1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .box2 {
     margin: 20px;
@@ -71,7 +79,10 @@ body {
     margin: 20px;
     border-style: solid;
     border-width: 2px;
-    background-color: #eb8467;    
+    background-color: #eb8467;
+    width:auto;
+    height:auto;
+    padding-top: 5px;    
 }
 .box6 {
     margin: 20px;
@@ -87,7 +98,8 @@ body {
     width:auto;
     height:auto;
 }
-.box5 img {
+.grid img {
     width:auto;
-    height:350px;
+    height: 360px;
+    padding-top: 10px;
 }

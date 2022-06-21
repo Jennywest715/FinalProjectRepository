@@ -7,12 +7,16 @@
 .wrapper {
     background-color:#FAEEDE;
     padding: 5px;
- 
 }
 .article {
     text-align:center;
     font-size:35px;
     font-weight: bold;
+}
+audio {
+    background-color:#d98e79;
+    margin-top: 25px;
+    margin-left: auto;
 }
 article p {
     font-size: 20px;

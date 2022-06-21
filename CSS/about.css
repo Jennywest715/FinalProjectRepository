@@ -13,11 +13,6 @@
     font-size:35px;
     font-weight: bold;
 }
-audio {
-    background-color:#d98e79;
-    margin-top: 25px;
-    margin-left: auto;
-}
 article p {
     font-size: 20px;
     text-align: center;
@@ -103,7 +98,9 @@ body {
     height:auto;
 }
 .grid img {
-    width:auto;
+    width:575px;
     height: 360px;
     padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }

@@ -12,6 +12,11 @@ header {
     margin-top:0;
     display:flex;
 }
+audio {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right:auto;
+}
 .logo {
     margin-right: 250px;
     height: 150px;
@@ -61,7 +66,8 @@ nav {
     height:105px;
     padding: 0;
     border-top:0;
-    margin-top: 0; 
+    margin-top: 0;
+    margin-bottom:5px; 
     width:100%;
     background-color:#f6c6b9;
 }

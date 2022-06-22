@@ -34,6 +34,7 @@ body {
     /* vvv GRID vvv */
 .grid {
     display: grid;
+    /* vvv makes grid fit page size vvv */
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     text-align: center;
     margin:10px; 

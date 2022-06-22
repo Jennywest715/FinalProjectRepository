@@ -9,3 +9,29 @@
     background-color:#FAEEDE;
  
 }
+h2 {
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+.box p {
+    color:red;
+}
+.box {
+    margin:10px;
+    height:auto;
+    width:auto;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 18px;
+}
+.about {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.6;
+    font-size: 18px;
+    border-style: solid;
+    margin:20px;
+    background-color: #eb8467;
+}

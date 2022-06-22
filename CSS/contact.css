@@ -9,7 +9,7 @@
     background-color:#FAEEDE;
  
 }
-h2 {
+h1 {
     margin-top:10px;
     margin-bottom: 5px;
 }
@@ -33,5 +33,7 @@ h2 {
     font-size: 18px;
     border-style: solid;
     margin:20px;
+    margin-left:100px;
+    margin-right: 100px;
     background-color: #eb8467;
 }

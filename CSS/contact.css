@@ -9,6 +9,9 @@
     background-color:#FAEEDE;
  
 }
+body {
+    align-content: center;
+}
 .box p {
     color:red;
 }
@@ -32,16 +35,18 @@
     margin-left:100px;
     margin-right: 100px;
     background-color: #eb8467;
+    border-radius: 5px;
 }
 .help a {
     text-align: center;   
 }
 .container {
-    margin-left:300px;
-    margin-right: auto;
-    display: inline-flex;
-    border-style: solid;
-    width:fit-content;
+    height: 100%;
+    display: flex;
+    align-content: space-evenly;
+    padding:10px;
+    justify-content: center;
+    margin-bottom: 15px;
 }
 h3 {
     text-align: center;
@@ -56,11 +61,12 @@ form {
     width:400px;
 }
 .map {
+    background-color: #dc8e78;
     border-style: solid;
-    margin-left: 20px;
-    margin-right: auto;
     margin-bottom: 20px;
     padding:10px;
+    border-radius: 5px;
+    margin:0;
 }
 .map p{
     text-align: center;
@@ -77,7 +83,7 @@ input[type=text] {
     display:block;
 }
 input[type=submit] {
-    background-color: #e5ab9b;
+    background-color: #ca3d15;
     color: white;
     padding: 12px 20px;
     border-style: solid;

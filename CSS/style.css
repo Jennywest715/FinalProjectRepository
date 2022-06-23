@@ -12,6 +12,9 @@
     background-color:#FAEEDE;
     /* position: relative; */
 }
+h2 {
+    margin-top:0;
+}
 section{
     background-position: center;
     background-repeat: no-repeat;

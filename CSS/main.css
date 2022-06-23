@@ -96,21 +96,40 @@ a:active {
     font-weight: bold;
     height: 100px;
     background-color:#c73c1b;
-    display:flex;
+    display:inline-flex;
+    justify-content: center;
     bottom:0;
     width:100%;
+    margin: 0 auto;
+    text-align: center;
 }
-.footer a {
+
+.headspace a {
     text-decoration: none;
     color: orange;
     padding: 10px;
-    margin: 5px;
-    margin-left: 20px;
     height:auto;
     width:200px;
 }
-.footer i {
+.headspace i {
     padding: 5px;
     margin: 5px;
     color:black;
+}
+.facebook{
+    text-align: center;
+}
+.facebook a {
+    text-decoration: none;
+    color: #4267B2;
+    padding: 10px;
+    height:auto;
+    width:200px;
+}
+.facebook i {
+    padding: 5px;
+    margin: 5px;
+    width:30px;
+    height:40px
+    
 }

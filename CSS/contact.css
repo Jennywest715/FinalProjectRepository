@@ -36,6 +36,10 @@ body {
     margin-right: 100px;
     background-color: #eb8467;
     border-radius: 5px;
+    background-image: url(../images/sunflowers\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .help a {
     text-align: center;   

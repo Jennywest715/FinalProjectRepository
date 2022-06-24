@@ -96,8 +96,8 @@ a:active {
     font-weight: bold;
     height: 100px;
     background-color:#c73c1b;
-    display:inline-flex;
-    justify-content: center;
+    display:flex;
+    justify-content: space-between;
     bottom:0;
     width:100%;
     margin: 0 auto;    
@@ -125,4 +125,16 @@ a:active {
     margin: 5px;
     width:30px;
     height:40px   
+}
+.copyright {
+    margin:5px;
+    float:right;
+}
+.copyright p {
+    font-size: 16px;
+    display:flex;
+    text-align: center;
+    margin:0;
+    margin-top:10px;
+
 }

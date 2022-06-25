@@ -24,7 +24,7 @@ section{
     margin-top:0;
     margin-bottom:25px;
     height: 400px;
-    background-image: url(/FinalProjectRepository/images/dropOwater.jpg);
+    background-image: url(/FinalProjectRepository);
     /* Section Text */
     text-align:center;
     font-size:35px;
@@ -49,19 +49,19 @@ section p{
 }
 .column1{
     text-align: center;
-    background-image: url(/FinalProjectRepository/images/water-drops-1314995.jpg);
+    background-image: url(/FinalProjectRepository/water-drops-1314995.jpg);
     background-position:center;
     background-size: cover;
 }
 .column2{
     text-align: center;
-    background-image: url(/FinalProjectRepository/images/healing.jpg);
+    background-image: url(/FinalProjectRepository/healing.jpg);
     background-position: center;
     background-size: cover;
 }
 .column3 {
     text-align: center;
-    background-image: url(/FinalProjectRepository/images/growing2.jpg);
+    background-image: url(/FinalProjectRepository/growing2.jpg);
     background-position: center;
     background-size: cover;
 }
